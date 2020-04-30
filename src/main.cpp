@@ -2,10 +2,10 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-#define FIREBASE_HOST "espfire-f896f.firebaseio.com"  //Change to your Firebase RTDB project ID e.g. Your_Project_ID.firebaseio.com
-#define FIREBASE_AUTH "lT0V9FnLG8CQrNglCTKHBSRqqtbOSoTCxAGwwnJF" //Change to your Firebase RTDB secret password
-#define WIFI_SSID "retedimamo2"
-#define WIFI_PASSWORD "amicidiguagno"
+#define FIREBASE_HOST "project.firebaseio.com"  //Change to your Firebase RTDB project ID e.g. Your_Project_ID.firebaseio.com
+#define FIREBASE_AUTH "key" //Change to your Firebase RTDB secret password
+#define WIFI_SSID "ssid"
+#define WIFI_PASSWORD "passkey"
 
 //Define Firebase Data objects
 FirebaseData firebaseData;
